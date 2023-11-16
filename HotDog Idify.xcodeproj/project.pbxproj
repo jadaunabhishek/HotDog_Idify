@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2165F7152B060B410045A0C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165F7142B060B410045A0C0 /* AppDelegate.swift */; };
+		2165F7172B060B410045A0C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165F7162B060B410045A0C0 /* SceneDelegate.swift */; };
+		2165F7192B060B410045A0C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165F7182B060B410045A0C0 /* ViewController.swift */; };
+		2165F71C2B060B410045A0C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2165F71A2B060B410045A0C0 /* Main.storyboard */; };
+		2165F71E2B060B430045A0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2165F71D2B060B430045A0C0 /* Assets.xcassets */; };
+		2165F7212B060B430045A0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2165F71F2B060B430045A0C0 /* LaunchScreen.storyboard */; };
+		2165F72C2B060B430045A0C0 /* HotDog_IdifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165F72B2B060B430045A0C0 /* HotDog_IdifyTests.swift */; };
+		2165F7362B060B430045A0C0 /* HotDog_IdifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165F7352B060B430045A0C0 /* HotDog_IdifyUITests.swift */; };
+		2165F7382B060B430045A0C0 /* HotDog_IdifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165F7372B060B430045A0C0 /* HotDog_IdifyUITestsLaunchTests.swift */; };
+		2165F7452B060BF30045A0C0 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2165F7442B060BF30045A0C0 /* Inceptionv3.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2165F7282B060B430045A0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2165F7092B060B410045A0C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2165F7102B060B410045A0C0;
+			remoteInfo = "HotDog Idify";
+		};
+		2165F7322B060B430045A0C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2165F7092B060B410045A0C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2165F7102B060B410045A0C0;
+			remoteInfo = "HotDog Idify";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2165F7112B060B410045A0C0 /* HotDog Idify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HotDog Idify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2165F7142B060B410045A0C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2165F7162B060B410045A0C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2165F7182B060B410045A0C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2165F71B2B060B410045A0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2165F71D2B060B430045A0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2165F7202B060B430045A0C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2165F7222B060B430045A0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2165F7272B060B430045A0C0 /* HotDog IdifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotDog IdifyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2165F72B2B060B430045A0C0 /* HotDog_IdifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDog_IdifyTests.swift; sourceTree = "<group>"; };
+		2165F7312B060B430045A0C0 /* HotDog IdifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HotDog IdifyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2165F7352B060B430045A0C0 /* HotDog_IdifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDog_IdifyUITests.swift; sourceTree = "<group>"; };
+		2165F7372B060B430045A0C0 /* HotDog_IdifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDog_IdifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2165F7442B060BF30045A0C0 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2165F70E2B060B410045A0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2165F7242B060B430045A0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2165F72E2B060B430045A0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2165F7082B060B410045A0C0 = {
+			isa = PBXGroup;
+			children = (
+				2165F7132B060B410045A0C0 /* HotDog Idify */,
+				2165F72A2B060B430045A0C0 /* HotDog IdifyTests */,
+				2165F7342B060B430045A0C0 /* HotDog IdifyUITests */,
+				2165F7122B060B410045A0C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2165F7122B060B410045A0C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2165F7112B060B410045A0C0 /* HotDog Idify.app */,
+				2165F7272B060B430045A0C0 /* HotDog IdifyTests.xctest */,
+				2165F7312B060B430045A0C0 /* HotDog IdifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2165F7132B060B410045A0C0 /* HotDog Idify */ = {
+			isa = PBXGroup;
+			children = (
+				2165F7142B060B410045A0C0 /* AppDelegate.swift */,
+				2165F7162B060B410045A0C0 /* SceneDelegate.swift */,
+				2165F7182B060B410045A0C0 /* ViewController.swift */,
+				2165F71A2B060B410045A0C0 /* Main.storyboard */,
+				2165F71D2B060B430045A0C0 /* Assets.xcassets */,
+				2165F71F2B060B430045A0C0 /* LaunchScreen.storyboard */,
+				2165F7442B060BF30045A0C0 /* Inceptionv3.mlmodel */,
+				2165F7222B060B430045A0C0 /* Info.plist */,
+			);
+			path = "HotDog Idify";
+			sourceTree = "<group>";
+		};
+		2165F72A2B060B430045A0C0 /* HotDog IdifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2165F72B2B060B430045A0C0 /* HotDog_IdifyTests.swift */,
+			);
+			path = "HotDog IdifyTests";
+			sourceTree = "<group>";
+		};
+		2165F7342B060B430045A0C0 /* HotDog IdifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2165F7352B060B430045A0C0 /* HotDog_IdifyUITests.swift */,
+				2165F7372B060B430045A0C0 /* HotDog_IdifyUITestsLaunchTests.swift */,
+			);
+			path = "HotDog IdifyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2165F7102B060B410045A0C0 /* HotDog Idify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2165F73B2B060B430045A0C0 /* Build configuration list for PBXNativeTarget "HotDog Idify" */;
+			buildPhases = (
+				2165F70D2B060B410045A0C0 /* Sources */,
+				2165F70E2B060B410045A0C0 /* Frameworks */,
+				2165F70F2B060B410045A0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HotDog Idify";
+			productName = "HotDog Idify";
+			productReference = 2165F7112B060B410045A0C0 /* HotDog Idify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2165F7262B060B430045A0C0 /* HotDog IdifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2165F73E2B060B430045A0C0 /* Build configuration list for PBXNativeTarget "HotDog IdifyTests" */;
+			buildPhases = (
+				2165F7232B060B430045A0C0 /* Sources */,
+				2165F7242B060B430045A0C0 /* Frameworks */,
+				2165F7252B060B430045A0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2165F7292B060B430045A0C0 /* PBXTargetDependency */,
+			);
+			name = "HotDog IdifyTests";
+			productName = "HotDog IdifyTests";
+			productReference = 2165F7272B060B430045A0C0 /* HotDog IdifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2165F7302B060B430045A0C0 /* HotDog IdifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2165F7412B060B430045A0C0 /* Build configuration list for PBXNativeTarget "HotDog IdifyUITests" */;
+			buildPhases = (
+				2165F72D2B060B430045A0C0 /* Sources */,
+				2165F72E2B060B430045A0C0 /* Frameworks */,
+				2165F72F2B060B430045A0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2165F7332B060B430045A0C0 /* PBXTargetDependency */,
+			);
+			name = "HotDog IdifyUITests";
+			productName = "HotDog IdifyUITests";
+			productReference = 2165F7312B060B430045A0C0 /* HotDog IdifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2165F7092B060B410045A0C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2165F7102B060B410045A0C0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2165F7262B060B430045A0C0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2165F7102B060B410045A0C0;
+					};
+					2165F7302B060B430045A0C0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2165F7102B060B410045A0C0;
+					};
+				};
+			};
+			buildConfigurationList = 2165F70C2B060B410045A0C0 /* Build configuration list for PBXProject "HotDog Idify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2165F7082B060B410045A0C0;
+			productRefGroup = 2165F7122B060B410045A0C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2165F7102B060B410045A0C0 /* HotDog Idify */,
+				2165F7262B060B430045A0C0 /* HotDog IdifyTests */,
+				2165F7302B060B430045A0C0 /* HotDog IdifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2165F70F2B060B410045A0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2165F7212B060B430045A0C0 /* LaunchScreen.storyboard in Resources */,
+				2165F71E2B060B430045A0C0 /* Assets.xcassets in Resources */,
+				2165F71C2B060B410045A0C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2165F7252B060B430045A0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2165F72F2B060B430045A0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2165F70D2B060B410045A0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2165F7192B060B410045A0C0 /* ViewController.swift in Sources */,
+				2165F7452B060BF30045A0C0 /* Inceptionv3.mlmodel in Sources */,
+				2165F7152B060B410045A0C0 /* AppDelegate.swift in Sources */,
+				2165F7172B060B410045A0C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2165F7232B060B430045A0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2165F72C2B060B430045A0C0 /* HotDog_IdifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2165F72D2B060B430045A0C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2165F7362B060B430045A0C0 /* HotDog_IdifyUITests.swift in Sources */,
+				2165F7382B060B430045A0C0 /* HotDog_IdifyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2165F7292B060B430045A0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2165F7102B060B410045A0C0 /* HotDog Idify */;
+			targetProxy = 2165F7282B060B430045A0C0 /* PBXContainerItemProxy */;
+		};
+		2165F7332B060B430045A0C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2165F7102B060B410045A0C0 /* HotDog Idify */;
+			targetProxy = 2165F7322B060B430045A0C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2165F71A2B060B410045A0C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2165F71B2B060B410045A0C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2165F71F2B060B430045A0C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2165F7202B060B430045A0C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2165F7392B060B430045A0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2165F73A2B060B430045A0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2165F73C2B060B430045A0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GNM624FRA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HotDog Idify/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.HotDog-Idify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2165F73D2B060B430045A0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8GNM624FRA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HotDog Idify/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.HotDog-Idify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2165F73F2B060B430045A0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.HotDog-IdifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotDog Idify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotDog Idify";
+			};
+			name = Debug;
+		};
+		2165F7402B060B430045A0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.HotDog-IdifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotDog Idify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotDog Idify";
+			};
+			name = Release;
+		};
+		2165F7422B060B430045A0C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.HotDog-IdifyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HotDog Idify";
+			};
+			name = Debug;
+		};
+		2165F7432B060B430045A0C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aj.HotDog-IdifyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HotDog Idify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2165F70C2B060B410045A0C0 /* Build configuration list for PBXProject "HotDog Idify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2165F7392B060B430045A0C0 /* Debug */,
+				2165F73A2B060B430045A0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2165F73B2B060B430045A0C0 /* Build configuration list for PBXNativeTarget "HotDog Idify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2165F73C2B060B430045A0C0 /* Debug */,
+				2165F73D2B060B430045A0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2165F73E2B060B430045A0C0 /* Build configuration list for PBXNativeTarget "HotDog IdifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2165F73F2B060B430045A0C0 /* Debug */,
+				2165F7402B060B430045A0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2165F7412B060B430045A0C0 /* Build configuration list for PBXNativeTarget "HotDog IdifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2165F7422B060B430045A0C0 /* Debug */,
+				2165F7432B060B430045A0C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2165F7092B060B410045A0C0 /* Project object */;
+}
